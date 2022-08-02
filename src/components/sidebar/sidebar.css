@@ -1,0 +1,83 @@
+:root {
+  --lighter: #fafafa;
+  --light: #e8f1f5;
+  --dark: #005691;
+  --darker: #004a7c;
+}
+
+.sidebar {
+  width: 20%;
+  background-color: var(--light);
+  display: flex;
+  align-items:flex-start;
+  justify-content: center;
+  z-index: 0;
+  position: fixed;
+  min-height: 100vh;
+}
+
+.sideBarSub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.sideBarHead {
+  margin: 10px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 90%;
+}
+
+.sideBarHead > h3 {
+  color: #737373d0;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.sbSubSect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.sbMenuItemCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  padding: 5px 0;
+  color: var(--dark);
+  transition: all 0.5s;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sbMenuItemCont:hover,
+.sbMenuItemCont:active,
+.sbMenuItemCont:focus {
+  color: var(--darker);
+  background-color: #008eec2e;
+  border-radius: 20px;
+}
+
+.sbMenuItem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 95%;
+}
+
+.sbMIIcon {
+  padding: 0 8px;
+  width: 20px;
+}
+
+.sbMIText {
+  font-size: 14px;
+  font-weight: 600;
+}

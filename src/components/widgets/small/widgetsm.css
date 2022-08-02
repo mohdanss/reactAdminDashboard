@@ -1,0 +1,124 @@
+:root {
+  --lighter: #fafafa;
+  --light: #e8f1f5;
+  --dark: #005691;
+  --darker: #004a7c;
+}
+
+.widgetsmCont {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  width: 90%;
+  height: auto;
+  padding: 20px 0;
+}
+
+.widgetsmSub {
+  box-shadow: 0 0 5px 0 rgba(128, 128, 128, 0.3);
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+.titleCont {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.titleCont p {
+  color: var(--darker);
+  font-weight: 600;
+  font-size: clamp(20px, 1.4rem, 1.5rem);
+  margin: 10px 0 10px 0;
+}
+
+.userCardsCont {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.userCardCont {
+  border-bottom: 1px solid #00579125;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.avatarCont {
+  width: 20%;
+}
+
+.avatar {
+  width: 80%;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.centerItems {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.username {
+  font-size: clamp(14px, 1.1vw, 1.1rem);
+  font-weight: 500;
+  color: var(--darker);
+}
+
+.title {
+  font-size: clamp(14px, 0.7vw, 0.9rem);
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  color: gray;
+}
+
+.displayIconCont {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.displayIconContSub {
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: rgba(216, 216, 216, 0.4);
+  background: linear-gradient(
+    to right,
+    rgba(216, 216, 216, 0.4) 0%,
+    rgba(216, 216, 216, 0.4) 50%,
+    rgba(216, 216, 216, 0.4) 100%
+  );
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+
+.displayIcon {
+  margin-right: 2px;
+  color: var(--dark);
+}
+
+.displayIconContSub span {
+  font-size: clamp(14px, 0.7vw, 0.9rem);
+  font-weight: 500;
+  color: var(--dark);
+}

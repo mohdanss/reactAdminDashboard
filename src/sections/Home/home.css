@@ -1,0 +1,21 @@
+:root {
+  --lighter: #fafafa;
+  --light: #e8f1f5;
+  --dark: #005691;
+  --darker: #004a7c;
+}
+
+.homeSectionCont {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light);
+  width: 100%;
+  height: auto;
+}
+
+.widgetsCont {
+  display: flex;
+  padding: 20px 0;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #00579125;
+}

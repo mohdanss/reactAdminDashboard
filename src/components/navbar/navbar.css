@@ -1,0 +1,94 @@
+.navbar {
+  background-color: red;
+}
+
+:root {
+  --lighter: #fafafa;
+  --light: #e8f1f5;
+  --dark: #005691;
+  --darker: #004a7c;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  max-width: 100vw;
+  height: 8vh;
+  min-height: 50px;
+  background-color: var(--light);
+  position: fixed;
+  box-shadow: 0 0 2px 0 #bcbcbcc6;
+  z-index: 999;
+  top: 0;
+  left: 0;
+}
+
+.navbar-sub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+
+.logoContainer {
+  display: flex;
+  width: 30%;
+  height: 100%;
+}
+
+.logoContainer p {
+  color: var(--darker);
+  font-weight: 500;
+}
+
+.logoContainer span{
+  font-weight: 700;
+}
+
+.navItemsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 70%;
+  height: 100%;
+}
+
+.notifIconContainer {
+  display: flex;
+  cursor: pointer;
+  margin: 0 8px;
+  position: relative;
+}
+
+.notifIcon {
+  color: var(--darker);
+  position: relative;
+}
+
+.notifIcon:hover{
+    color: var(--dark);
+}
+
+.notifCounter {
+  font-size: 10px;
+  position: absolute;
+  background-color: #e60000;
+  color: #e8f1f5;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -5px;
+  right: -5px;
+}
+
+.avatarImg{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}

@@ -1,0 +1,15 @@
+:root {
+  --lighter: #fafafa;
+  --light: #e8f1f5;
+  --dark: #005691;
+  --darker: #004a7c;
+}
+
+.userlistSectionCont {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light);
+  width: 100%;
+  height: auto;
+}

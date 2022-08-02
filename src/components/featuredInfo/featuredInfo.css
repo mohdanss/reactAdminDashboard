@@ -1,0 +1,96 @@
+:root {
+  --lighter: #fafafa;
+  --light: #e8f1f5;
+  --dark: #005691;
+  --darker: #004a7c;
+}
+
+.featuredInfoCont {
+  display: flex;
+  padding: 20px 0;
+  width: 97%;
+  flex-direction: column;
+  border-bottom: 1px solid #00579125;
+}
+
+.featuredInfoContSub{
+  display: flex;
+  z-index: 5;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.fITitle{
+  font-size: 1.3vw;
+  font-weight: 600;
+  color: var(--darker);
+  margin: 0 0 10px 0;
+} 
+
+.infoCard {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin: 5px 10px 10px 0;
+  padding: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: var(--lighter);
+  background: linear-gradient(-45deg, var(--darker) 15%, rgb(255, 255, 255) 5%);
+  box-shadow: 0px 0px 8px 0px rgba(0, 104, 241, 0.221);
+  transition: all 0.2s ;
+}
+
+.infoCard:hover {
+    box-shadow: none;
+}
+
+.infoCardTitle {
+  color: var(--dark);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.revCont {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.infoCardRevenue {
+  color: var(--darker);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+.infoCardCompToLastMonth {
+  display: flex;
+  align-items: center;
+}
+
+.pct {
+  color: gray;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+.arrow {
+  padding: 0 3px 0 10px;
+  width: 16px;
+}
+
+.up {
+  color: green;
+}
+
+.down {
+  color: red;
+}
+
+.subTitle {
+  color: gray;
+  font-size: 14px;
+  font-weight: 500;
+}
